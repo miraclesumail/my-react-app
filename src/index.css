@@ -12,3 +12,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+ul,li{margin: 0; padding: 0;}
+li{list-style-type: none}
+a{text-decoration: none; color:#f5d300 }
+
+a.active{color: dodgerblue}
+
