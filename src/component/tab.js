@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom'
-import './tab.css';
+import './tab.scss';
 
 class Tab extends Component {
   render() {
     return (
      <nav>
-        <ul class="tab">
-            <li><NavLink to='/' exact activeClassName="active">home</NavLink></li>
-            <li><NavLink to='/about'  activeClassName="active">about</NavLink></li>
-            <li><NavLink to='/what'  activeClassName="active">what</NavLink></li>
+        <ul>
+            <li><NavLink to='/' exact activeClassName="active">首页</NavLink></li>
+            <li><NavLink to='/about'  activeClassName="active">大厅</NavLink></li>
+            <li><NavLink to='/what'  activeClassName="active">存取款</NavLink></li>
         </ul>
     </nav>
     );

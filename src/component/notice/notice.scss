@@ -1,0 +1,42 @@
+.notice {
+    height: 0.8666rem;
+    border-bottom: 1px solid #7d2f00;
+
+    .list {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        .icon {
+            font-size: 0.4666rem;
+            color: #e1c456;
+            flex: 2;
+        }   
+        .itemss {
+            height: 1rem;
+            display: flex;
+            li{
+                width: 10rem;
+                pointer-events: auto;
+                .title{
+                    /*height: 0.3rem;*/
+                    color: #e1c456;
+                    font-size: 0.62rem;
+                    overflow: hidden;
+                    width: 10rem;
+                }
+                .text {
+                    /*padding-top: 0.1rem;*/
+                    height: 0.4rem;
+                    color: #fff;
+                    font-size: 0.32rem;
+                    overflow: hidden;
+                    width: 10rem;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp:1;
+                    -webkit-box-orient: vertical;
+                }
+            }
+        }      
+    }
+}

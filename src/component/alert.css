@@ -1,0 +1,4 @@
+div.alert{transition: all .5s; position: fixed; top:0; width: 4rem; left: calc(50% - 2rem); background: dodgerblue; height: 1.5rem;line-height: 1.5rem}
+
+.hidden{transform: translateY(-100%)}
+.show{transform: translateY(1rem)}

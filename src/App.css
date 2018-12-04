@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+.big-container{height: 100%;}
+#app{position:relative;height: 100%;background: #0a0a0a; transition: .8s; z-index: 10}
+
+#app.show{
+    transform: translateX(2rem)
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
